@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <color android:name="black" tools:ignore="ExtraText">#FF000000</color>
+    <color android:name="white">#FFFFFFFF</color>
+    <!-- Add your gray color here -->
+    <color android:name="button_gray">#808080</color> <!-- Example: Standard Gray -->
+    <!-- You can use other gray shades like: -->
+    <!-- <color name="button_gray">#A9A9A9</color> --> <!-- DarkGray -->
+    <!-- <color name="button_gray">#696969</color> --> <!-- DimGray -->
+
+    <color android:name="darkBackground">#121212</color> <!-- Assuming you have this -->
+    <color android:name="gray_button">#333333</color></selector>

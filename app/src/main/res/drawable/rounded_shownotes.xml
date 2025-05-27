@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background Color -->
+    <solid android:color="#6082B6" /> <!-- We'll define this color next -->
+
+    <!-- Rounded Corners -->
+    <corners android:radius="40dp" /> <!-- Adjust radius for more or less rounding -->
+
+</shape>

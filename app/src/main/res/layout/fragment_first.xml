@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackground"
+    tools:context=".FirstFragment">
+
+    <!-- Top Bar with Menu Icon and Title -->
+    <LinearLayout
+        android:id="@+id/top_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_rectangle_background"
+        android:gravity="center_vertical"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"> <!-- Optional: for a slight shadow effect -->
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_menu_lines"
+            android:scaleType="centerInside"
+            android:padding="8dp"
+            android:contentDescription="@string/menu_content_description"/>
+
+        <TextView
+            android:id="@+id/title_writedown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_title_writedown"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="8dp"
+            android:paddingEnd="12dp"/> <!-- More padding at the end of text -->
+    </LinearLayout>
+
+    <!-- Placeholder for Fragment Content -->
+    <!-- Replace this with your RecyclerView or other content views -->
+    <TextView
+        android:id="@+id/text_view_placeholder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_content_placeholder"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <!-- Rounded Plus Button (FloatingActionButton) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="@string/add_note_content_description"
+        app:backgroundTint="@color/fab_plus_button_color"
+        app:tint="@android:color/white" /> <!-- Sets the color of the '+' icon to white -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

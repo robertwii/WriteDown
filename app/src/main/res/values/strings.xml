@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WriteDown</string>
+    <string name="fragment_title_writedown">WriteDown</string>
+    <string name="menu_content_description">Menu</string>
+    <string name="add_note_content_description">Add new note</string>
+    <string name="fragment_content_placeholder">Your notes will appear here.</string>
+</resources>
