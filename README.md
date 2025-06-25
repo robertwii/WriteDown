@@ -1,13 +1,8 @@
 WriteDown
 
-WriteDown is a simple notes app made by me and my friend carl/carlo:)
+WriteDown is a simple notes app made by me and my friend:)
 
-Designer:Carl/Carlo
+Designer:My friend
 Developer/Coder:Me/Robert
 
-oki i hope you enjoy the app:)❤️
-
-
-How to use??
-
-Are you dumb?(jk) Its a notes app what do you expect?😭
+oki i hope you enjoy the app
